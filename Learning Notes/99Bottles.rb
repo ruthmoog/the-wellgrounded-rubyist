@@ -11,7 +11,7 @@ while bottles_of_beer >= 3
   puts " "
 end
 
-if bottles_of_beer = 2
+if bottles_of_beer == 2
   puts "#{bottles_of_beer} bottles of beer on the wall,"
   puts "#{bottles_of_beer} bottles of beer"
   puts "take one down, pass it around"
