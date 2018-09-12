@@ -18,7 +18,7 @@ while turns < choice_of_turns
     puts "Right!"
     correct = correct + 1
   else
-    puts "Wrong :("
+    puts "Wrong :( the answer is #{x + y}"
     wrong = wrong + 1
   end
 end
