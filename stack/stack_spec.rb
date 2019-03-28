@@ -4,8 +4,7 @@ class Stack
   end
 
   def stack_me(stackable_thing)
-    @stackable_thing = stackable_thing
-    @the_stack << @stackable_thing
+    @the_stack << stackable_thing
   end
 
   def unstack_me
