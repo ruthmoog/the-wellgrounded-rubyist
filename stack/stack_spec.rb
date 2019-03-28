@@ -31,16 +31,6 @@ RSpec.describe Stack do
   expect(my_stack.unstack_me).to eq("llama")
   end
 
-  it "when you add >1 thing you get back the last thing first" do
-    #given
-    my_stack = Stack.new
-    #when
-    my_stack.stack_me("llama")
-    my_stack.stack_me("penguin")
-    #then 
-    expect(my_stack.unstack_me).to eq("penguin")
-  end
-
   it "when you add >1 thing you get back the first thing last" do
     #given
     my_stack = Stack.new
